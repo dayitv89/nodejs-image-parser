@@ -1,6 +1,6 @@
 # nodejs-image-parser
 
-![https://www.npmjs.com/package/nodejs-image-parser](https://img.shields.io/badge/npm-v1.0.1-red.svg?style=flat)
+![https://www.npmjs.com/package/nodejs-image-parser](https://img.shields.io/badge/npm-v1.0.2-red.svg?style=flat)
 
 Nodejs image parser (convert images as @3x image into desired RGB, compress them, fix the names to snake_case and finally put as 1x,2x, 3x form). Good for react native/ iOS projects.
 
@@ -62,3 +62,7 @@ const ImageParser = require('./ImageParser');
 const options = { destDir: './img_dest/', compressionSize: '50' };
 ImageParser.compressImages(options).then(() => console.log('done'));
 ```
+
+####
+
+Voila & Thanks, Author: **Gaurav D. Sharma**

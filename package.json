@@ -1,8 +1,12 @@
 {
 	"name": "nodejs-image-parser",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Nodejs image parser (convert images as @3x image into desired RGB, compress them, fix the names to snake_case and finally put as 1x,2x, 3x form). Good for react native/ iOS projects.",
 	"main": "ImageParser.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dayitv89/nodejs-image-parser"
+	},
 	"scripts": {
 		"start": "node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +14,9 @@
 	"author": "Gaurav D. Sharma",
 	"license": "MIT",
 	"dependencies": {
-		"change-case": "^3.0.2",
-		"imagemin": "^6.0.0",
-		"imagemin-pngquant": "^6.0.0",
-		"jimp": "^0.6.0"
+		"change-case": "3.0.2",
+		"imagemin": "6.0.0",
+		"imagemin-pngquant": "6.0.0",
+		"jimp": "0.6.0"
 	}
 }
